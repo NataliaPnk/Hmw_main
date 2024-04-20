@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  height: 100px;
+  background-color: #ffffff;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrapper-header {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-item {
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+.logo-text {
+  color: #005fa3;
+  font-size: 36px;
+  font-family: "Merriweather";
+  font-weight: 900;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Lato";
+  font-size: 14px;
+}
+
+.button-header {
+  color: #000000;
+  text-transform: uppercase;
+  width: 170px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: 2px solid;
+}
+
+.wrapper-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* <!-- SECTION FIRST--> */
+
+.container-our-services {
+  background-color: #ebebeb;
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper-our-services-items {
+  width: 65%;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.Titles-our-services {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-right: 500px;
+  margin: 90px;
+}
+
+.small-title-our-services {
+  font-family: "Lato";
+  font-size: 24px;
+  color: #bdbdbd;
+  margin-bottom: 30px;
+}
+
+.big-title-our-services {
+  font-family: "Merriweather";
+  color: #333333;
+  font-size: 48px;
+}
+
+.img-item {
+  position: relative;
+  display: inline-block;
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.img-item:hover {
+  background: #005fa3a6;
+  opacity: 30%;
+}
+
+.img-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.content-item {
+  position: absolute;
+  z-index: 2;
+}
+
+img {
+  width: 350px;
+  height: 360px;
+}
+
+.title-img {
+  font-family: "Lato";
+  font-size: 24px;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.button-img {
+  width: 175px;
+  height: 50px;
+  font-family: "Lato";
+  font-size: 14px;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 25px;
+  border: solid;
+  border-color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 165px;
+  margin-left: 40px;
+}
+
+/* <!-- SECOND SECTION --> */
+
+.container-our-cases {
+  width: 100%;
+  max-height: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 90px;
+
+  display: flex;
+  position: relative;
+}
+
+.wrapper-cases {
+  width: 87%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-left: 200px;
+  gap: 50px;
+  padding-top: 70px;
+}
+
+.small-title-about-us {
+  font-family: "Lato";
+  color: #bdbdbd;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.big-title-about-us {
+  font-family: "Merriweather";
+  color: #005fa3;
+  font-size: 48px;
+  padding-bottom: 30px;
+  line-height: 1.3em;
+}
+
+.big-title-about-us::first-line {
+  color: #333333;
+}
+
+.text-about-us {
+  font-family: "Lato";
+  color: #000000;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.wrapper-cases-items {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.case-item {
+  width: 255px;
+  height: 255px;
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 30px;
+}
+
+.case-item:hover {
+  background: #005fa3;
+  opacity: 40%;
+}
+
+.title-case {
+  font-family: "Lato";
+  font-size: 55px;
+  color: #000000;
+}
+
+.text-case {
+  font-family: "Lato";
+  font-size: 14px;
+  color: #000000;
+}
+
+.button-case {
+  width: 175px;
+  height: 50px;
+  border-radius: 25px;
+  border: #005fa3 solid;
+  color: #005fa3;
+}
