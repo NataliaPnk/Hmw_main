@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+  background-image: url(img-header.jpg);
+  background-position: right;
+  background-color: #404149;
+  background-blend-mode: darken;
+  width: 100%;
+  height: 740px;
+  position: relative;
+}
+
+.header-titles {
+  color: #ffffff;
+  font-family: "Oswald";
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.header-big-title {
+  font-size: 64px;
+}
+
+.header-small-title {
+  font-size: 18px;
+}
+
+.wrapper-header-block-numbers {
+  position: absolute;
+  width: 60%;
+  height: 300px;
+  background-color: #ffffff;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.header-block-numbers {
+  width: 190px;
+  height: 185px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-number-text1 {
+  font-size: 72px;
+  color: #f7654a;
+  font-family: "Oswald";
+}
+
+.header-number-text2 {
+  font-size: 36px;
+  color: #000000;
+  font-family: "Oswald";
+  padding-top: 5px;
+}
+
+.header-number-text3 {
+  font-size: 18px;
+  color: #999999;
+  font-family: "Oswald";
+  padding-bottom: 5px;
+}
+
+/* <!-- MIDL PART 1 --> */
+
+.midl-part1 {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 550px;
+  padding-bottom: 540px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.midl-part1-big-title {
+  position: absolute;
+  font-size: 36px;
+  font-family: "Oswald";
+  color: #404149;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  top: 0;
+  padding: 5px;
+}
+
+.midl-part1-wrapper {
+  position: absolute;
+  width: 65%;
+  height: 681px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+img {
+  width: 350px;
+  height: 380px;
+}
+
+.midl-part1-underlining {
+  width: 55px;
+  height: 6px;
+  background-color: #f7654a;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.midl-part1-small-title {
+  font-size: 24px;
+  color: #404149;
+  font-family: "Oswald";
+}
+
+.midl-part1-main-text {
+  font-size: 16px;
+  color: #999999;
+  font-family: "Open Sans";
+}
+
+.midl-part1-case {
+  width: 350px;
+  height: 578px;
+}
+
+/* <!-- PARTITION --> */
+
+.partition {
+  width: 100%;
+  height: 180px;
+  background-color: #f7654a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.partition-wrapper-titles {
+  flex-direction: column;
+}
+
+.partition-big-title {
+  font-size: 48px;
+  font-family: "Oswald";
+  color: #ffffff;
+}
+
+.partition-small-title {
+  font-size: 24px;
+  font-family: "Oswald";
+  color: #ffffff;
+}
+
+.partition-button {
+  background-color: #ffffff;
+  width: 175px;
+  height: 50px;
+  border: none;
+  font-size: 14px;
+  color: #000000;
+  font-family: "Oswald";
+}
+
+/* <!-- MIDL PART 2 --> */
+
+.midl-part2 {
+  width: 100%;
+  height: 1500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* <!-- WRAPPER 1 --> */
+
+.midl-part2-wrapper1 {
+  width: 65%;
+  height: 350px;
+  margin-top: 120px;
+}
+
+.midl-part2-wrapper1-icon {
+  width: 60px;
+  height: 40px;
+}
+
+.midl-part2-title1 {
+  font-size: 36px;
+  font-family: "Oswald";
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+.midl-part2-wrapper1-items {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.midl-part2-wrapper1-item {
+  width: 350px;
+  height: 250px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.midl-part2-wrapper1-text {
+  font-size: 20px;
+  font-family: "Oswald";
+  color: #000000;
+}
+
+/* <!-- WRAPPER 2 --> */
+
+.midl-part2-wrapper2 {
+  width: 65%;
+  height: 700px;
+}
+
+.midl-part2-title2 {
+  font-size: 36px;
+  font-family: "Oswald";
+  color: #000000;
+  padding-bottom: 30px;
+  padding-top: 120px;
+}
+
+.midl-part2-wrapper2-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.midl-part2-wrapper2-item {
+  width: 350px;
+  height: 250px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* <!-- CONTACTS --> */
+
+.contacts {
+  width: 65%;
+  height: 300px;
+}
+
+.contacts-title {
+  font-size: 36px;
+  font-family: "Oswald";
+  color: #000000;
+  padding-bottom: 30px;
+  padding-top: 120px;
+}
+
+.wrapper-contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.boxex-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+  width: 250px;
+  height: 190px;
+}
