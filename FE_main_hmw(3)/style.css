@@ -302,47 +302,18 @@ img {
 .wrapper-contacts {
   width: 65%;
   height: 200px;
-
-  /* display: flex;
-
-  align-items: center;
-  justify-content: space-between; */
-
-  /* display: grid; */
-  /* grid-template-columns: repeat(4, 1fr); */
-  /* grid-template-rows: repeat(4, 1fr);
-  gap: 20px; */
 }
 
 .boxex-contacts {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: repeat(4, 1fr); */
   gap: 20px;
   padding: 20px;
-
-
-  /* display: flex;
-  flex-direction: row; */
-  /* align-items: center;
-  justify-content: space-around; */
-  /* gap: 25px; */
-
-  /* width: 250px;
-  height: 190px; */
-
-  
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* align-items: center;
-  justify-content: center;
-  gap: 25px; */
 } 
 
 .box-contacts {
   width: 250px;
   height: 190px;
-  /* background-color: #e12121; */
 }
 
 .contacts-icon {
